@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE rdf:RDF [
+    <!ENTITY owl "http://www.w3.org/2002/07/owl#" >
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<rdf:RDF xmlns="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#"
+     xml:base="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#FamousFor -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#FamousFor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#NearTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#NearTo"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#famousin -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#famousin"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#locatedIn -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#locatedIn"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Food -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Food"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Hotel -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Hotel"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tourist_Place -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tourist_Place"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Transport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#User -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#User"/>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#nearTo -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#nearTo"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Boating -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Boating">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tourist_Place"/>
+        <famousin rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Mirik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Darjeeling -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Darjeeling">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Place"/>
+        <FamousFor rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tea_Garden"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Gangtok -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Gangtok">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Place"/>
+        <FamousFor rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#MG_Marg"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Hill_ViewHotel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Hill_ViewHotel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Hotel"/>
+        <locatedIn rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Darjeeling"/>
+        <NearTo rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tiger_Hill"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#MG_Marg -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#MG_Marg">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tourist_Place"/>
+        <locatedIn rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Gangtok"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Mayfair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Mayfair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Hotel"/>
+        <locatedIn rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Darjeeling"/>
+        <locatedIn rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Gangtok"/>
+        <NearTo rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#MG_Marg"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Mirik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Mirik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Place"/>
+        <FamousFor rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Boating"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Momo -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Momo">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Food"/>
+        <famousin rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Darjeeling"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tea -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tea">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Food"/>
+        <famousin rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Darjeeling"/>
+        <famousin rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Gangtok"/>
+        <famousin rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Mirik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tea_Garden -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tea_Garden">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tourist_Place"/>
+        <famousin rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Darjeeling"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Thukpa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Thukpa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Food"/>
+        <famousin rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Darjeeling"/>
+        <famousin rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Gangtok"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tiger_Hill -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tiger_Hill">
+        <rdf:type rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Tourist_Place"/>
+        <locatedIn rdf:resource="http://www.semanticweb.org/bidhi/ontologies/2026/4/untitled-ontology-6#Darjeeling"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
