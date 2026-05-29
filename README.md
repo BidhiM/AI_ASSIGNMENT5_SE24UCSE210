@@ -111,7 +111,11 @@ Working
 
 The ontology is created in Protégé and saved as:  
 
-travel.owl  
+# travel.owl  
+
+The main python file for all the implementation is saved as:  
+
+# main.py  
 
 Python loads the ontology using Owlready2 and reads:  
 
