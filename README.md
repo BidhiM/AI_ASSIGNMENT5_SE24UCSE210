@@ -136,5 +136,60 @@ Tourist Places:
 - Tiger_Hill  
 
 Hotels:  
-- Mayfair  
+- Mayfair
+
+# Knowledge Graphs (KG)  
+
+A Knowledge Graph represents knowledge using:  
+
+Nodes → entities/concepts  
+Edges → relationships between entities  
+
+## Example:  
+
+Student ── enrolled_in ──> Course  
+## Applications    
+Semantic search  
+Recommendation systems  
+Chatbots  
+Healthcare analytics  
+
+## Tools for Building KG   
+Tool	Purpose  
+Neo4j	Graph database & visualization  
+Protégé	Ontology modeling  
+Apache Jena	RDF storage & SPARQL querying  
+GraphDB	Semantic reasoning  
+Bayesian Networks (BN)  
+
+# A Bayesian Network is a probabilistic graphical model using a Directed Acyclic Graph (DAG) to represent uncertain relationships.
+
+Tool	Purpose  
+GeNIe	GUI-based BN modeling  
+Netica	Probabilistic inferencing  
+pgmpy	Python implementation  
+bnlearn	Statistical BN analysis  
+
+## Example: Medical Diagnosis using BN  
+
+Network:  
+
+Disease → Fever  
+Disease → Cough  
+
+Joint probability:  
+
+P(D,F,C)=P(D)P(F∣D)P(C∣D)  
+
+Inference:  
+
+Given Fever = True and Cough = True  
+Predict probability of Disease  
+Simple pgmpy Example  
+from pgmpy.models import BayesianNetwork  
+
+model = BayesianNetwork([  
+    ('Disease', 'Fever'),  
+    ('Disease', 'Cough')  
+])  
 
