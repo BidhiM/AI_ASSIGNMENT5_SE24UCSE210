@@ -1,3 +1,6 @@
+# Bidhi Mitruka
+# SE24UCSE210
+
 # Tic-Tac-Toe AI using Search Algorithms
 ## Overview
 
